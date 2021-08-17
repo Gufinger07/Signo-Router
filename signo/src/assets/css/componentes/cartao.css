@@ -40,12 +40,20 @@
     line-height: 1.3rem;
 }
 
-.cartao-post--bem-estar {
-    border-color: var(--cor-categoria-bem-estar);
+.cartao-post--aries {
+    border-color: var(--cor-categoria-aries);
 }
 
-.cartao-post--comportamento {
-    border-color: var(--cor-categoria-comportamento);
+.cartao-post--touro {
+    border-color: var(--cor-categoria-touro);
+}
+
+.cartao-post--gemeos {
+    border-color: var(--cor-categoria-gemeos);
+}
+
+.cartao-post--cancer {
+    border-color: var(--cor-categoria-cancer);
 }
 
 .posts {

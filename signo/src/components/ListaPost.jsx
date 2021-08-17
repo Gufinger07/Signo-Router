@@ -16,7 +16,7 @@ useEffect(() => {
     <section className="posts container">
       { 
        posts.map((post)=> (
-         <Link className={`cartao-post cartao-post--${post.categoria}`} to={`/posts/${post.id}`}>
+         <Link className={`cartao-post cartao-post--${post.categoria}`}>
            <article key={post.id}>
               <h3 className="cartao-post__titulo">
                 {post.title}
