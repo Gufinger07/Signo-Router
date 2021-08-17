@@ -56,6 +56,37 @@
     border-color: var(--cor-categoria-cancer);
 }
 
+.cartao-post--leao {
+    border-color: var(--cor-categoria-leao);
+}
+
+.cartao-post--virgem {
+    border-color: var(--cor-categoria-virgem);
+}
+
+.cartao-post--libra {
+    border-color: var(--cor-categoria-libra);
+}
+
+.cartao-post--escorpiao {
+    border-color: var(--cor-categoria-escorpiao);
+}
+
+.cartao-post--sagitario {
+    border-color: var(--cor-categoria-sagitario);
+}
+
+.cartao-post--capricornio {
+    border-color: var(--cor-categoria-capricornio);
+}
+
+.cartao-post--aquario {
+    border-color: var(--cor-categoria-aquario);
+}
+
+.cartao-post--peixes {
+    border-color: var(--cor-categoria-peixes);
+}
 .posts {
     display: flex;
     flex-direction: column;

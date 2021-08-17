@@ -13,7 +13,7 @@ useEffect(() => {
 }, [])
 
   return(
-    <section className="posts container">
+    <section className="posts container dashboard">
       { 
        posts.map((post)=> (
          <Link className={`cartao-post cartao-post--${post.categoria}`}>

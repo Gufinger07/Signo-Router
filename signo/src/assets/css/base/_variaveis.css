@@ -29,8 +29,17 @@
 
     --cor-categoria-aries: #ff4949;
     --cor-categoria-touro: #28d654;
-    --cor-categoria-gemeos: #e6f029;
+    --cor-categoria-gemeos: #d8e12c;
     --cor-categoria-cancer: #36a999;
+    --cor-categoria-leao: #ff6600;
+    --cor-categoria-virgem: #1947bb;
+    --cor-categoria-libra: #c523aaf8;
+    --cor-categoria-escorpiao: #19191c;
+    --cor-categoria-sagitario: #4a93e1;
+    --cor-categoria-capricornio: #55556f;
+    --cor-categoria-aquario: #72e48f;
+    --cor-categoria-peixes: #ad56dff8;
+    
 
     --sombra: 0 5px 10px #55a6ff38;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import ListaCategorias from "../components/ListaCategorias";
 import ListaPost from "../components/ListaPost";
 
 const Posts = () => {
@@ -7,6 +8,7 @@ const Posts = () => {
       <div className="container">
         <h2 className="titulo-pagina">Signos</h2>
       </div>
+      <ListaCategorias />
       <ListaPost url={"/posts"} />
     </main>
   );

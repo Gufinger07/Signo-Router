@@ -1,24 +1,86 @@
 .lista-categorias {
-    width: 100%;
-    box-sizing: border-box;
-    justify-content: space-evenly;
-    margin-bottom: 2rem;
+    visibility: hidden;
 }
 
 .lista-categorias__categoria {
-    font-weight: var(--fonte-peso-categorias);
-    background-color: var(--cor-contraste-claro);
-    border-radius: 3rem;
-    padding: 1rem;
+    visibility: hidden;
 }
 
-.lista-categorias__categoria--bem-estar {
-    color: var(--cor-contraste-claro);
-    background-color: var(--cor-categoria-bem-estar);
+@media(min-width: 1100px) {
+    .lista-categorias {
+        visibility: visible;
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: space-evenly;
+        margin-bottom: 2rem;
+    }
+    
+    .lista-categorias__categoria {
+        visibility: visible;
+        font-weight: var(--fonte-peso-categorias);
+        background-color: var(--cor-contraste-claro);
+        border-radius: 3rem;
+        padding: 1rem;
+    }
+    .lista-categorias__categoria--aries {
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-aries);
+    }
+    
+    
+    .lista-categorias__categoria--touro {
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-touro);
+    }
+    
+    .lista-categorias__categoria--gemeos{
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-gemeos);
+    }
+    
+    .lista-categorias__categoria--cancer{
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-cancer);
+    }
+    
+    .lista-categorias__categoria--leao{
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-leao);
+    }
+    
+    .lista-categorias__categoria--virgem{
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-virgem);
+    }
+    
+    .lista-categorias__categoria--libra{
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-libra);
+    }
+    
+    .lista-categorias__categoria--escorpiao{
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-escorpiao);
+    }
+    
+    .lista-categorias__categoria--sagitario{
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-sagitario);
+    }
+    
+    .lista-categorias__categoria--capricornio{
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-capricornio);
+    }
+    
+    .lista-categorias__categoria--aquario{
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-aquario);
+    }
+    
+    .lista-categorias__categoria--peixes{
+        color: var(--cor-contraste-claro);
+        background-color: var(--cor-categoria-peixes);
+    }
+    
 }
-
-.lista-categorias__categoria--comportamento {
-    color: var(--cor-contraste-claro);
-    background-color: var(--cor-categoria-comportamento);
-}
-

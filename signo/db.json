@@ -2,28 +2,56 @@
   "categorias": [
     {
       "id": "aries",
-      "nome": "aries"
+      "nome": "Aries"
       
     },
     {
       "id": "touro",
-      "nome": "comportamento"
+      "nome": "Touro"
       
     },
     {
-      "id": "aries",
-      "nome": "aries"
-     
-    },
-    {
       "id": "gemeos",
-      "nome": "gemeos"
+      "nome": "Gemeos"
       
     },
     {
       "id": "cancer",
-      "nome": "cancer"
+      "nome": "Câncer"
+    },
+    {
+      "id": "leao",
+      "nome": "Leão"
+    },
+    {
+      "id": "virgem",
+      "nome": "Virgem"
+    },
+    {
+      "id": "libra",
+      "nome": "Libra"
+    },
+    {
+      "id": "escorpiao",
+      "nome": "Escorpião"
+    },
+    {
+      "id": "sagitario",
+      "nome": "Sagitário"
+    },
+    {
+      "id": "capricornio",
+      "nome": "Capricôrnio"
+    },
+    {
+      "id": "aquario",
+      "nome": "Aquário"
+    },
+    {
+      "id": "peixes",
+      "nome": "Peixes"
     }
+    
   ],
   "posts": [
     {
@@ -67,7 +95,7 @@
     {
       "id": 7,
       "title": "Gêmeos",
-      "metadescription": "Rosnando é um ruído de aviso.",
+      "metadescription": "Animados e comunicativos.",
       "categoria": "gemeos" 
     },
     {
@@ -99,8 +127,150 @@
       "title": "Câncer",
       "metadescription": "A carência e o mau humor podem surgir a qualquer momento nos cancerianos, que podem se tornar ciumentos ou se vitimizar.",
       "categoria": "cancer"
-    }
-    
-  
+    },
+    {
+      "id": 13,
+      "title": "Leão",
+      "metadescription": "Têm a personalidade muito forte.",
+      "categoria": "leao"
+    },
+    {
+      "id": 14,
+      "title": "Leão",
+      "metadescription": "Inteligentes e corajosos, são líderes natos.",
+      "categoria": "leao"
+    },
+    {
+      "id": 15,
+      "title": "Leão",
+      "metadescription": "São expressivos e determinados: quando colocam algo na mente, pode ter certeza que vão até o fim para conquistá-la;.",
+      "categoria": "leao"
+    },
+    {
+      "id": 16,
+      "title": "Virgem",
+      "metadescription": "Observação e eficiência são marcas do virginiano, que é bastante atencioso e sincero com os demais.",
+      "categoria": "virgem"
+    },
+    {
+      "id": 17,
+      "title": "Virgem",
+      "metadescription": "Está sempre resolvendo um problema: seja seu ou dos outros.",
+      "categoria": "virgem"
+    },
+    {
+      "id": 18,
+      "title": "Virgem",
+      "metadescription": "Ser sistemático torna o virginiano cheio de manias, muito crítico e desconfiado. ",
+      "categoria": "virgem"
+    },
+    {
+      "id": 19,
+      "title": "Libra",
+      "metadescription": "Extremamente diplomáticos, são sinceros e buscam ponderar sempre para chegar no melhor resultado.",
+      "categoria": "libra"
+    },
+    {
+      "id": 20,
+      "title": "Libra",
+      "metadescription": "Simpatia, boa comunicação e tranquilidade.",
+      "categoria": "libra"
+    },
+    {
+      "id": 21,
+      "title": "Libra",
+      "metadescription": "Querer atingir o equilíbrio sempre torna o libriano indeciso, controlador e com muita mania de organização. ",
+      "categoria": "libra"
+    },
+    {
+      "id": 22,
+      "title": "Escorpião",
+      "metadescription": "Têm muita intuição e um instinto protetor maravilhoso.",
+      "categoria": "escorpiao"
+    },
+    {
+      "id": 23,
+      "title": "Escorpião",
+      "metadescription": "São dedicados e apaixonados.",
+      "categoria": "escorpiao"
+    },
+    {
+      "id": 24,
+      "title": "Escorpião",
+      "metadescription": "Ciúmes e às vezes obsessão fazem com que o nunca esqueçam do que lhe fizeram, se tornando vingativos e rancorosos. ",
+      "categoria": "escorpiao"
+    },
+    {
+      "id": 25,
+      "title": "Sagitário",
+      "metadescription": "São pessoas estimulantes, que gostam de se divertir e têm bastante espontaneidade e vitalidade.",
+      "categoria": "sagitario"
+    },
+    {
+      "id": 26,
+      "title": "Sagitário",
+      "metadescription": "São talentosos, inteligentes e justos.",
+      "categoria": "sagitario"
+    },
+    {
+      "id": 27,
+      "title": "Sagitário",
+      "metadescription": "Podem aparentar arrogância por saberem demais, rígidos com si mesmos e os outros, um pouco impacientes e sarcásticos. ",
+      "categoria": "sagitario"
+    },
+    {
+    "id": 28,
+    "title": "Capricórnio",
+    "metadescription": "São persistentes e determinados.",
+    "categoria": "capricornio"
+  },
+  {
+    "id": 29,
+    "title": "Capricórnio",
+    "metadescription": "Sua organização e ambição natas fazem com que sejam muito eficientes e trabalhadores.",
+    "categoria": "capricornio"
+  },
+  {
+    "id": 30,
+    "title": "Capricórnio",
+    "metadescription": "muito certinhos, podem se tornar rígidos e orgulhosos demais. Por serem muito práticos, também podem se tornar frios e pessimistas. ",
+    "categoria": "capricornio"
+  },
+  {
+    "id": 28,
+    "title": "Aquário",
+    "metadescription": "Idealista e inventivo.",
+    "categoria": "aquario"
+  },
+  {
+    "id": 29,
+    "title": "Aquário",
+    "metadescription":"O aquariano costuma ser tranquilo e justo, ao mesmo tempo que gosta de transformar e não se acomodar nas situações.",
+    "categoria": "aquario"
+  },
+  {
+    "id": 30,
+    "title": "Aquário",
+    "metadescription": "Por ser individualista e desapegado, muitos consideram o aquariano frio e sem coração (rs), além de distante, rebelde e imprevisível. ",
+    "categoria": "aquario"
+  },
+  {
+    "id": 31,
+    "title": "Peixes",
+    "metadescription": "Ouvintes natos, são confiáveis, intuitivos, prestativos e preocupados com os demais. ",
+    "categoria": "peixes"
+  },
+  {
+    "id": 32,
+    "title": "Peixes",
+    "metadescription": "São adaptáveis e simpáticos, os tornando bem sociáveis.",
+    "categoria": "peixes"
+  },
+  {
+    "id": 33,
+    "title": "Peixes",
+    "metadescription": "A sensibilidade aflorada pode os tornar emocionais demais, tendendo para a depressão, os tornando muito temperamentais e rancorosos.  ",
+    "categoria": "peixes"
+  }
   ]
 }
